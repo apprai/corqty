@@ -1,10 +1,49 @@
 {
 	"folders": [
 		{
-			"path": "backend/service-api"
+			"path": ".",
+			"name": "_root",
 		},
 		{
-			"path": "frontend/web-landing-page"
+			"path": "backend/service-api",
+			"name": "service-api",
+		},
+		{
+			"path": "frontend/web-landing-page",
+			"name": "web-landing-page",
+		},
+		{
+			"path": "frontend/web-admin",
+			"name": "web-admin",
+		},
+		{
+			"path": "apps/app-user",
+			"name": "app-user",
+		},
+		{
+			"path": "apps/app-guide",
+			"name": "app-guide",
+		},
+		{
+			"path": "devops",
+			"name": "devops",
+		},
+	],
+	"extensions": {
+		"recommendations": [
+			"dart-code.flutter",
+			"octref.vetur",
+			"hashicorp.terraform",
+			"gruntfuggly.todo-tree",
+			"dart-code.dart-code",
+			"bierner.markdown-mermaid",
+			"esbenp.prettier-vscode",
+			"golang.go"
+		]
+	},
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true,
 		}
-	]
+	}
 }

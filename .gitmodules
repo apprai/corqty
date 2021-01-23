@@ -1,6 +1,6 @@
-[submodule "backend/api"]
-	path = backend/api
-	url = git@github.com:glovel-app/web-api.git
+[submodule "backend/service-api"]
+path = backend/service-api
+url = git@github.com:glovel-app/service-api.git
 [submodule "frontend/web-landing-page"]
-	path = frontend/web-landing-page
-	url = git@github.com:glovel-app/web-landing-page.git
+path = frontend/web-landing-page
+url = git@github.com:glovel-app/web-landing-page.git

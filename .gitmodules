@@ -4,3 +4,12 @@ url = git@github.com:glovel-app/service-api.git
 [submodule "frontend/web-landing-page"]
 path = frontend/web-landing-page
 url = git@github.com:glovel-app/web-landing-page.git
+[submodule "frontend/web-admin"]
+	path = frontend/web-admin
+	url = git@github.com:glovel-app/web-admin.git
+[submodule "apps/app-user"]
+	path = apps/app-user
+	url = git@github.com:glovel-app/app-user.git
+[submodule "apps/app-guide"]
+	path = apps/app-guide
+	url = git@github.com:glovel-app/app-guide.git

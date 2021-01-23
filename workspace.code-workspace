@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "backend/service-api"
+		},
+		{
+			"path": "frontend/web-landing-page"
 		}
 	]
 }

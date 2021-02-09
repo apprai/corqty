@@ -44,6 +44,7 @@
 	"settings": {
 		"files.exclude": {
 			"**/node_modules": true,
-		}
+		},
+		"typescript.tsdk": "web-landing-page/node_modules/typescript/lib"
 	}
 }

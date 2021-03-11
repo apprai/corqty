@@ -2,49 +2,24 @@
 	"folders": [
 		{
 			"path": ".",
-			"name": "_root",
+			"name": ".workspace"
 		},
 		{
-			"path": "backend/service-api",
-			"name": "service-api",
+			"path": "backend/service-api"
 		},
 		{
-			"path": "frontend/web-landing-page",
-			"name": "web-landing-page",
+			"path": "backend/worker"
 		},
 		{
-			"path": "frontend/web-admin",
-			"name": "web-admin",
+			"path": "devops"
 		},
 		{
-			"path": "apps/app-user",
-			"name": "app-user",
+			"path": "frontend/web"
 		},
 		{
-			"path": "apps/app-guide",
-			"name": "app-guide",
-		},
-		{
-			"path": "devops",
-			"name": "devops",
+			"path": "frontend/dashboard"
 		},
 	],
-	"extensions": {
-		"recommendations": [
-			"dart-code.flutter",
-			"octref.vetur",
-			"hashicorp.terraform",
-			"gruntfuggly.todo-tree",
-			"dart-code.dart-code",
-			"bierner.markdown-mermaid",
-			"esbenp.prettier-vscode",
-			"golang.go"
-		]
-	},
-	"settings": {
-		"files.exclude": {
-			"**/node_modules": true,
-		},
-		"typescript.tsdk": "web-landing-page/node_modules/typescript/lib"
-	}
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {}
 }

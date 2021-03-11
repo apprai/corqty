@@ -1,21 +1,22 @@
 {
-  "name": "glovel-web-landing-page",
+  "name": "web",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port 8080",
-    "build": "vuedx-typecheck . && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "@vuedx/typescript-plugin-vue": "^0.6.3",
+    "axios": "^0.21.1",
+    "vue": "^3.0.5",
+    "vue-router": "4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.4",
+    "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",
-    "@vuedx/typecheck": "^0.6.0",
-    "@vuedx/typescript-plugin-vue": "^0.6.3",
     "typescript": "^4.1.3",
-    "vite": "^2.0.0-beta.65",
-    "vite-plugin-windicss": "^0.4.3"
+    "vite": "^2.0.5",
+    "vite-plugin-windicss": "^0.8.2"
   }
 }

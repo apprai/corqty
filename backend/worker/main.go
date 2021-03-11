@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"iriz/internal/metrics"
-	"iriz/internal/worker"
+	"iriz-worker/internal/metrics"
+	"iriz-worker/internal/worker"
 
 	"github.com/alitto/pond"
 )
@@ -22,10 +22,12 @@ func main() {
 	)
 	defer pool.StopAndWait()
 
-	workerName := flag.String("worker", "", "Worker name to start")
+	var workerName string
+
+	flag.StringVar(&workerName, "worker", "", "Worker name to start")
 	flag.Parse()
 
-	worker := worker.GetWorker(*workerName)
+	worker := worker.GetWorker(workerName)
 
 	go func(pool *pond.WorkerPool) {
 		for {

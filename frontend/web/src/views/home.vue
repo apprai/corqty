@@ -1,17 +1,13 @@
 <template>
-	<router-view v-if="$route.path == '/login'"></router-view>
-	<layout v-if="$route.path != '/login'"></layout>
+	<h1>Home</h1>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import layout from "./layout/layout.vue";
 
 export default defineComponent({
 	name: "App",
-	components: {
-		layout,
-	},
+	components: {},
 	computed: {},
 	methods: {},
 	watch: {},

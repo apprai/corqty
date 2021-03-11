@@ -1,25 +1,35 @@
 {
 	"folders": [
 		{
-			"path": ".",
-			"name": ".workspace"
+			"name": ".workspace",
+			"path": "."
 		},
 		{
-			"path": "backend/service-api"
+			"name": "api",
+			"path": "backend/api"
 		},
 		{
+			"name": "worker",
 			"path": "backend/worker"
 		},
 		{
+			"name": "devops",
 			"path": "devops"
 		},
 		{
+			"name": "web",
 			"path": "frontend/web"
 		},
 		{
+			"name": "dashboard",
 			"path": "frontend/dashboard"
 		},
+		{
+			"path": "frontend/landing-page"
+		}
 	],
-	"remoteAuthority": "wsl+Ubuntu",
-	"settings": {}
+	"settings": {
+		"volar.tsPlugin": false,
+		"typescript.tsdk": "web/node_modules/typescript/lib"
+	}
 }

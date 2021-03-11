@@ -1,4 +1,4 @@
-module iriz
+module iriz-worker
 
 go 1.16
 
